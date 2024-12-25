@@ -308,7 +308,7 @@ function getSpiralMatrix(size) {
     result[k] = [];
   }
 
-  while (true) {
+  while (value < size * size) {
     if (upper > lower) {
       upper += 1;
       break;
